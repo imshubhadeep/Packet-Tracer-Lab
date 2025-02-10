@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বাংলা শস্য বীমা (BSB) ফর্ম</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+    <div class="p-1 flex justify-center">
+        <div class="w-[210mm] border-2 border-black">
+            <!-- 1st heading part -->
+            <div class="text-center pt-2">
+                <h2 class="text-2xl font-bold">বাংলা শস্য বীমা (BSB)</h2>
+                <h3 class="text-xl">রবি ২০২৪-২৫ মরশুম</h3>
+                <p class="text-xs">অধিসূচীত ফসলের নাম: আলু, বোরো ধান, গম, সর্ষে, ছোলা, খেসারি, মসুর ডাল, রবি ভুট্টা, গ্রীষ্মকালীন ভুট্টা, মুগ, তিল, বাদাম, আখ</p>
+            </div>
+    
+            <div class="flex flex-wrap p-4">
+                <!-- Left Side Content -->
+                <div class="w-2/3 text-left -mt-4">
+                    <p class="font-bold text-sm">বাজাজ অ্যালিয়ান্স জেনারেল ইন্স্যুরেন্স কোম্পানি লিমিটেড</p>
+                    <div class="text-xs">
+                        <p>প্রধান কাৰ্য্যালয়: বাজাজ অ্যালিয়ান্স হাউস, এয়ারপোর্ট রোড, ইয়ারাবাদা, পুনা-৪১১০০৬</p>
+                        <p>কলকাতা কাৰ্য্যালয়: বাজাজ অ্যালিয়ান্স জেনারেল ইন্স্যুরেন্স কোম্পানি লিমিটেড,</p>
+                        <p>তৃতীয় তল, ৩ বি ইস্কো কমপ্লেক্স, নিউ টাউন, রাজারহাট, কলকাতা-৭০০১৫৬</p>
+                        <p>ইমেল: bagichelp@bajajallianz.co.in, ওয়েবসাইট: www.bajajallianz.com</p>
+                    </div>
+                    <p class="font-bold text-sm">নিঃশুল্ক সহায়তা সেবা নম্বর: ১৮০০ ২০৯ ৫৮৫৮ (কৃষি)</p>
+                </div>
+    
+                <!-- Right Side Content -->
+                <div class="w-1/3 text-right mt-1">
+                    <div class="text-sm text-center p-2 border-black">
+                        <p class="font-bold">মধ্যস্থতাকারীর বিবরণ</p>
+                        <p>.......................................................................</p>
+                        <p>.......................................................................</p>
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <div class="w-full text-center">
+                        <div class="text-left space-y-2 text-xs">
+                            <div class="flex items-center">
+                                <span>কৃষকের নাম</span>
+                                <input type="text" class="border-b border-dotted border-black flex-1 mx-1 outline-none" id="farmer_name">
+                                <span>পিতা /মাতা /স্বামী /অভিভাবকের নাম</span>
+                                <input type="text" class="border-b border-dotted border-black flex-1 mx-1 outline-none" id="guardian_name">
+                            </div>
+                            
+                            <div class="flex items-center">
+                                <span>বয়স</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 w-12 outline-none" id="age">
+                                <span>লিঙ্গ: পুং / নারী / অন্যান্য ভোটার কার্ড (EPIC) নং (আবশ্যিক)</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 w-40 outline-none" id="epic_number">
+                            </div>
+                
+                            <div class="flex items-center">
+                                <span>জাতি:সাঃ/তপঃ জাঃ/তপঃ উঃ/ওবিসি,মোবাইল নং</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1 outline-none" id="mobile">
+                                <span>আধার নং(আবশ্যিক)</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 w-40 outline-none" id="aadhaar">
+                            </div>
+                
+                            <div class="flex items-center">
+                                <span>বসবাসের ঠিকানা:মৌজা/গ্রামের নাম</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1 outline-none" id="village">
+                                <span>গ্রাম পঞ্চায়েত</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1 outline-none" id="panchayat">
+                            </div>
+                
+                            <div class="flex items-center">
+                                <span>ব্লক</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1 outline-none" id="block">
+                                <span>জেলা</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1 outline-none" id="district">
+                                <span>কেসিসি আছে: হ্যাঁ/না কৃষক বন্ধু আই ডি</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 w-40 outline-none" id="farmer_friend_id">
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-sm mt-2">
+                        বীমার জন্যে প্রস্তাবিত ফসল এবং জমির বিবরণ 
+                        <span class="text-xs">(অধিক দাগের জন্য পেছনের পাতা ব্যাবহার করতে হবে):</span>
+                    </h3>
+                </div>
+                
+            </div>
+    
+            <!-- Table Section -->
+            <div class="w-full overflow-x-auto -mt-4">
+                <table class="w-full border-t-2 border-black border-collapse text-xs text-center">
+                    <thead>
+                        <tr>
+                            <th rowspan="2" class="border-r-2 border-b-2 border-black -p-1 font-normal">অধিসূচিত ফসলের নাম</th>
+                            <th colspan="2" class="border-2 border-black -p-1 font-normal">অধিসূচিত এলাকা</th>
+                            <th rowspan="2" class="border-2 border-black -p-1 font-normal">মৌজার নাম <br>ও জে এল নং</th>
+                            <th rowspan="2" class="border-2 border-black -p-1 font-normal">খতিয়ান নং</th>
+                            <th rowspan="2" class="border-2 border-black -p-1 font-normal">দাগ নং</th>
+                            <th rowspan="2" class="border-2 border-black -p-1 font-normal">বীমার জন্য প্রস্তাবিত এলাকা (একর)</th>
+                            <th rowspan="2" class="border-2 border-black -p-1 font-normal">নিজস্ব জমি / ভাড়া চাষি / ভাড়া নেওয়া চাষি</th>
+                            <th rowspan="2" class="border-l-2 border-b-2 border-black -p-1 font-normal">ফসল রোপণের / সম্ভাব্য রোপণের তারিখ</th>
+                        </tr>
+                        <tr>
+                            <th class="border-2 border-black px-1 font-normal">ব্লক</th>
+                            <th class="border-2 border-black px-1 font-normal">গ্রাম পঞ্চায়েত</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border border-black">
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border border-black px-4 py-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                        </tr>
+
+                        <!-- Add Bank Details Section -->
+                        <tr>
+                            <th colspan="9" class="border-t-2 border-b-2 border-black px-1 py-1 text-sm font-normal">
+                                কৃষকের ব্যাঙ্কের বিবরণ (আধার সংযুক্তিকৃত ব্যাঙ্ক অ্যাকাউন্ট)
+                            </th>
+                        </tr>
+                        <tr class="text-xs">
+                            <th colspan="2" class="border-r-2 border-b-2 border-gray-800 -p-1 font-normal">কৃষকের নাম <br> (ব্যাঙ্কের পাশবই অনুযায়ী)</th>
+                            <th colspan="2" class="border-r-2 border-b-2 border-gray-800 -p-1 font-normal">ব্যাঙ্কের নাম</th>
+                            <th class="border-r-2 border-b-2 border-gray-800 -p-1 font-normal">ব্রাঞ্চের নাম</th>
+                            <th class="border-r-2 border-b-2 border-gray-800 -p-1 font-normal">অ্যাকাউন্ট নম্বর</th>
+                            <th colspan="2" class="border-r-2 border-b-2 border-gray-800 -p-1 font-normal">IFSC</th>
+                            <th class="border-b-2 border-gray-800 -p-1 font-normal">অ্যাকাউন্টের ধরন</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="border-r-2 border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td colspan="2" class="border-r-2 border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-r-2 border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td colspan="2" class="border-r-2 border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                            <td class="border-gray-800 p-2"><input type="text" class="w-full border-none text-center focus:outline-none"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="border-t-2 border-black">
+                <div class="px-2">
+                    <div class="p-1 text-xs w-full">
+                        <h2 class="font-bold text-sm">কৃষকদের দাখিল যোগ্য নথি (বাধ্যতামূলক) :</h2>
+                        <ul class="list-[lower-bengali] pl-5 mb-2">
+                            <li>KYC নথি ঃ ভোটার আইডি কার্ড এবং আধার কার্ড।</li>
+                            <li>পাসবই-এর কপি সংযুক্ত ব্যাঙ্ক অ্যাকাউন্ট নং।</li>
+                            <li>খতিয়ান / পর্চা (পাসপোর্টসাইজ) বা পাটা বা দলিল-এর নমুনা (নিজের জমির ক্ষেত্রে), ভাগচাষীদের বা নিজের নামে জমি না থাকলে জমিতে চাষের অধিকার সংক্রান্ত শপথনামা (নোটরি করে স্বাক্ষর প্রদানকৃত প্রাপ্তি দিতে হবে)।</li>
+                            <li>সংশ্লিষ্ট কৃষি অফিসার (সার্কেল ব্লক) বা তার অনুমোদিত ব্যাক্তি জমি ও জমির সংক্রান্ত এবং উৎপত্তি।</li>
+                        </ul>
+
+                        <h2 class="font-bold text-sm -mt-1">ঘোষণা :</h2>
+                        <ul class="list-[lower-bengali] pl-5">
+                            <li>আমি এই ঘোষণার বিবরণ পড়েছি এবং বুঝেছি / আমার কোনোরূপ অভিযোগ নেই।</li>
+                            <li>আমি উপরে বর্ণিত সমস্ত তথ্য আমার যথাযথ বিবেচনার ভিত্তিতে অন্য কোনো (অন্য ব্যাঙ্ক / এজেন্সি / সমবায় সমিতি) কোনো ফসল বীমা করিনি।</li>
+                            <li>আমি যদি যেকোনো বিভ্রান্তিকর তথ্য দিয়ে থাকি এবং তা সরকারী যাচাই হলে তার জন্য আমি দায়ী।</li>
+                            <li>কোনো পরিবহনের কারণে বীমাকৃত সংক্রান্ত নির্দিষ্ট সমস্যা থাকলে জানাবো।</li>
+                        </ul>
+
+                        <div class="flex justify-between mt-2">
+                            <div class="flex flex-col items-center ml-2">
+                                <p>..............................................</p>
+                                <p>সাক্ষীর সহি</p>
+                            </div>
+                            <p class="mt-2 text-center text-sm">উপরে প্রদত্ত তথ্যাদি আমার সর্বাধিক জ্ঞান ও বিশ্বাসমতে সঠিক।</p>
+                            <div class="flex flex-col items-center mr-2">
+                                <p>......................................................</p>
+                                <p>কৃষকের সহি বা টিপসই</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t-2 border-black">
+                <div class="px-2 w-full text-center">
+                    <h2 class="font-bold uppercase text-sm">Area Sown Certificate</h2>
+                    <p class="font-semibold text-xs">
+                        Certified that, the information furnished above regarding sown area (actual / intended) is true as per available records.
+                    </p>
+                    <!-- Centered Dotted Line -->
+                    <div class="border-t border-dotted border-black w-3/5 mx-auto mt-3 mb-3"></div>
+                    <p class="text-xs font-semibold">
+                        (Asst DA of the block or his / her representative / Revenue Officer / Revenue inspector of L&LR & R.R. & R Deptt.)
+                    </p>
+                    <p class="text-sm font-semibold">(Signature with date and Seal)</p>
+                </div>
+            </div>
+            
+            
+            <div class="border-t-2 border-black w-full">
+                <div class="px-4 w-full text-center">
+                    <h2 class="font-semibold text-sm">প্রাপ্তি স্বীকার</h2>
+            
+                    <div class="text-left mt-2 space-y-2 text-xs">
+                        <div class="flex items-center">
+                            <span>শ্রী / শ্রীমতী</span>
+                            <input type="text" class="border-b border-dotted border-black flex-1 mx-2" id="name">
+                            <span>পিতা / স্বামী / অভিভাবক</span>
+                            <input type="text" class="border-b border-dotted border-black flex-1 mx-2" id="guardian">
+                        </div>
+            
+                        <div class="flex flex-wrap items-center w-full justify-between">
+                            <span>মিনি</span>
+                            <input type="text" class="border-b border-dotted border-black flex-1 mx-2" id="mini">
+                            <span>গ্রাম পঞ্চায়েত,</span>
+                            <input type="text" class="border-b border-dotted border-black flex-1 mx-2" id="panchayat">
+                            <span>ব্লক</span>
+                            <input type="text" class="border-b border-dotted border-black flex-1 mx-2" id="block">
+                            <span>জেলার একজন কৃষক, তার</span>
+                        </div>
+            
+                        <div class="flex items-center">
+                            <span>নিকট হইতে</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="from">
+                            <span>তারিখে</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="date">
+                            <span>ফসলের জন্য</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="crop">
+                        </div>
+            
+                        <p class="w-full text-justify text-xs tracking-widest">
+                            একরে পরিমাণ জমির জন্য পূরণ করা প্রস্তাব গ্রহণ করা হলো (ঝুঁকির গ্রহণযোগ্যতা প্রস্তাবপত্র যাচাই সাপেক্ষে)।
+                        </p>
+            
+                        <div class="flex items-center">
+                            <span>শ্রী / শ্রীমতী</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="farmer_name">
+                            <span>এর</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="relation">
+                        </div>
+            
+                        <div class="flex items-center">
+                            <span>ব্যাংকের</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="bank">
+                            <span>শাখায় অ্যাকাউন্ট আছে এবং একাউন্ট নং হলো</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="account">
+                        </div>
+            
+                        <div class="flex items-center">
+                            <span>মধ্যস্থতাকারীর নাম</span>
+                            <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="mediator_name">
+                        </div>
+                    </div>
+            
+                    <div class="flex justify-between items-start w-full mt-2">
+                        <div class="w-1/2">
+                            <div class="flex items-center text-xs">
+                                <span>ঠিকানা</span>
+                                <input type="text" class="border-b border-dotted border-black mx-2 flex-1" id="address">
+                            </div>
+                            <p class="mt-1 italic text-xs">(দয়া করিয়া এই প্রাপ্তি স্বীকার রসিদ ভবিষ্যৎ ব্যবহারের জন্য নিজের কাছে রাখুন)</p>
+                        </div>
+            
+                        <!-- Signature section -->
+                        <div class="flex justify-end mt-2">
+                            <div class="flex flex-col items-center self-end">
+                                <p class="print:block">...................................................................................</p>
+                                <p class="text-right text-xs">(অনুমোদিত স্বাক্ষরকারীর সহি ও শীলমোহর)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center text-xs">বীমা আগ্রহের বিষয়বস্তু। শস্য বীমা সংক্রান্ত যে কোন অভিযোগের জন্যে নিশুম্মা সহায়তা নম্বর ১৮০০-২০৯-২১২৮-এর মাধ্যমে যোগাযোগ করুন  UIN: IRDAN113CP0001V01202324, CIN No.: U66010PN2000PLC015329  বীমা আগ্রহের বিষয়বস্তু।  IRDA Reg. No.: 113</p>
+    
+    <br>
+    
+    <!-- 2nd Page -->
+    <div class="p-1 flex justify-center">
+        <div class="w-[280mm]">
+            <table class="w-full border-2 border-black text-xs text-center">
+                <!-- Title Row -->
+                <tr class="border-2 border-black">
+                    <th colspan="9" class="border border-black px-2 py-1 text-left font-semibold text-sm">
+                        বীমার জন্যে প্রস্তাবিত ফসল এবং জমির বিবরণ (অধিক দাগের জন্য পেছনের পাতা ব্যাবহার করতে হবে):
+                    </th>
+                </tr>
+    
+                <!-- Header Row -->
+                <tr class="border-2 border-black">
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">অধিসূচিত ফসলের নাম</th>
+                    <th colspan="2" class="border-2 border-black px-2 py-1 font-normal">অধিসূচিত এলাকা</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">মৌজার নাম ও জে এল নং</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">খতিয়ান নং</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">দাগ নং</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">বীমার জন্য প্রস্তাবিত এলাকা (একর)</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">নিজস্ব জমি / ভাড়া চাষি / ভাড়া নেওয়া চাষি</th>
+                    <th rowspan="2" class="border-2 border-black px-2 py-1 font-normal">ফসল রোপণের / সম্ভাব্য রোপণের তারিখ</th>
+                </tr>
+                <tr class="border-2 border-black">
+                    <th class="border-2 border-black px-2 py-1 font-normal">ব্লক</th>
+                    <th class="border-2 border-black px-2 py-1 font-normal">গ্রাম পঞ্চায়েত</th>
+                </tr>
+    
+                <!-- Input Row -->
+                <tr class="border-2 border-black">
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                    <td class="border-2 border-black px-2 py-1"><input type="text" class="w-full text-center border-none focus:outline-none"></td>
+                </tr>
+    
+                <tbody id="table-body"></tbody>
+                <script src="main.js"></script>
+    
+                <!-- Footer Row -->
+                <tr class="border-2 border-black">
+                    <td colspan="9" class="border-2 border-black px-4 py-4 text-center">
+                        <div class="flex justify-between text-xs">
+                            <div class="flex flex-col items-center ml-2 mt-2">
+                                <p>..............................................</p>
+                                <p>সাক্ষীর সহি</p>
+                            </div>
+                            <p class="mt-2">উপরে প্রদত্ত তথ্যাদি আমার সর্বাধিক জ্ঞান ও বিশ্বাসমতে সঠিক।</p>
+                            <div class="flex flex-col items-center mr-2 mt-2">
+                                <p>......................................................</p>
+                                <p>কৃষকের সহি বা টিপসই</p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="border-2 border-black">
+                    <th colspan="9" class="border border-black px-32 py-32 text-left font-semibold text-base"></th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <p class="text-center text-xs">বীমা আগ্রহের বিষয়বস্তু। শস্য বীমা সংক্রান্ত যে কোন অভিযোগের জন্যে নিশুম্মা সহায়তা নম্বর ১৮০০-২০৯-২১২৮-এর মাধ্যমে যোগাযোগ করুন  UIN: IRDAN113CP0001V01202324, CIN No.: U66010PN2000PLC015329  বীমা আগ্রহের বিষয়বস্তু।  IRDA Reg. No.: 113</p>
+</body>
+</html>
